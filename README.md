@@ -1,32 +1,34 @@
-## Introudction
+#### Introudction
 
 This is submission of course Project Assignment of __Getting and Cleaning Data__ Course in Data Science Specialization. The Github contains  
-1. run_analysis.R --> Source code used for tidying the original data  
-2. CodeBook.md --> Codebook explaining variables of tidied data and steps used to extract dataset. 
-3. Readme.md --> This file containing general information.  
+
+  1. __run\_analysis.R__ --> Source code used for tidying the original data
+  2. __CodeBook.md__ --> Codebook explaining variables of tidied data and steps used to extract dataset.
+  3. __Readme.md__ --> This file containing general information.  
 
 The script has not been separated into smaller units to preserve wholesome view of the process.
 
 #### Requirement for Script Execution  
  
-1. There should be either zipped file _getdata-projectfiles-UCI HAR Dataset.zip_ or unzipped folder _UCI HAR Dataset_ in the same directory as R source file __run\_analysis.r__. Following are the files, script will use,.
-- activity_labels.txt
-- features.txt
-- test/subject_test.txt
-- test/X_test.txt
-- test/y_test.txt
-- train/subject_train.txt
-- train/X_train.txt
-- train/y_train.txt
+1. There should be either zipped file _getdata-projectfiles-UCI HAR Dataset.zip_ or unzipped folder _UCI HAR Dataset_ in the same directory as R source file _run\_analysis.r_. Following are the files, script will use,
+    - activity_labels.txt
+    - features.txt
+    - test/subject_test.txt
+    - test/X_test.txt
+    - test/y_test.txt
+    - train/subject_train.txt
+    - train/X_train.txt
+    - train/y_train.txt  
+
 
 2.If zip file is missing, zip file can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 The file can be also downloaded from [UCI website](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).
 
-3. The tidied data will be stored as __tidy\_data.txt__.
+3. The tidied data will be stored as _tidy\_data.txt_.
 
 4. The code has dependencies on following packages.
-- [dply package](http://cran.rstudio.com/web/packages/dplyr/)
-- [reshape2 package](http://cran.rstudio.com/web/packages/reshape2/)
+    - [dply package](http://cran.rstudio.com/web/packages/dplyr/)
+    - [reshape2 package](http://cran.rstudio.com/web/packages/reshape2/)
 
 
 #### Method of tidying data
